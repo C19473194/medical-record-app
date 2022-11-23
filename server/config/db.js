@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 const HOST = "localhost"; // ip address of database
-const USERNAME = "docker";
-const PASSWORD = "mongopw";
-const PORT = 49155; // which port it's running on
+const USERNAME = "admin";
+const PASSWORD = "Sp00ky!";
+const PORT = 27017; // which port it's running on
 const DB = 'MedicalDatabase'; // name of the database
 
 const db = {};
